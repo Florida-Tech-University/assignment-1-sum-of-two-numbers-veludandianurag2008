@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        // Create a Scanner object to take input from the user
+        Scanner input = new Scanner();
+
+        // Read two integers
+        int firstNumber = input.nextInt();
+        int secondNumber = input.nextInt();
+
+        // Calculate their sum
+        int total = firstNumber + secondNumber;
+
+        // Print the result
+        System.out.println(total);
+
+        // Close the scanner
+        input.close();
+    }
+}
